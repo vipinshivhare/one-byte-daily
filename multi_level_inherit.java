@@ -21,6 +21,7 @@ public class multi_level_inherit{
         bitch.bachao();
         bitch.sound();
         bitch.bark();
+        bitch.bark();
         
     }
 }
