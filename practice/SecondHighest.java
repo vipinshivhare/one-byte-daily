@@ -1,5 +1,3 @@
-package practice;
-
 public class SecondHighest {
     public static void main(String[] args) {
         int[] numbers = {5, 9, 2, 15, 7, 15}; // Example array
