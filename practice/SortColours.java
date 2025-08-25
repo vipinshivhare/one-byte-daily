@@ -12,20 +12,18 @@ public class SortColours {
         
         while(mid <= end){
             switch(arr[mid]){
-                case 0 : 
+                case 0 -> { 
                     swap(arr, start, mid);
                     start++;
                     mid++;
-                    break;
+                }
 
-                case 1 :
-                    mid++;
-                    break;
+                case 1 -> mid++;
                 
-                case 2 :
+                case 2 -> {
                     swap(arr, mid, end);
                     end--;
-                    break;
+                }
             }
         }
     }
