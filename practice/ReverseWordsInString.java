@@ -20,8 +20,6 @@ public class ReverseWordsInString {
             String word = arr[i];
             String capWord = word.substring(0,1).toUpperCase()+word.substring(1);
 
-
-
             if(ans.length() == 0){
                 ans.append(capWord);
 
@@ -37,5 +35,4 @@ public class ReverseWordsInString {
         // O/P - blue is sky the
         System.out.print(reverseWordsInString(s));
     }
-    
 }
