@@ -15,7 +15,6 @@ public class FirstWordInUpperCase {
                 ans.append(capsWord);
             }
         }
-
         return ans.toString();
     }
     public static void main(String[] args) {
