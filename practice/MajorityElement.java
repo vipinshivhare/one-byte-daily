@@ -1,3 +1,4 @@
+// Boyer's Moore Algorithm
 public class MajorityElement {
     public static int majorityElement(int[]arr){
         int ans = 1;
