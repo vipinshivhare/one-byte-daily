@@ -1,5 +1,5 @@
 public class FloorInSortedArray {
-    // 1st 
+    // 1st - Print the index of floor
     // public static int floorInSortedArray(int[] arr, int target){
     //     int ans = -1;
     //     for(int i=0;i<arr.length;i++){
@@ -10,7 +10,7 @@ public class FloorInSortedArray {
     //     return ans;
     // }
 
-    // 2nd
+    // 2nd - Print the index of floor
     public static int floorInSortedArray(int[] arr, int target){
         int ans = -1;
         int start = 0;
