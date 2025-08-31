@@ -33,9 +33,7 @@ public class AverageByMarks {
             System.out.println("Failed - Parent Meeting required");
         }
 
-
-
-        
+        sc.close();
 
 
     }
