@@ -34,8 +34,6 @@ public class AverageByMarks {
         }
 
         sc.close();
-
-
     }
     
 }
