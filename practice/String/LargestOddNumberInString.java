@@ -1,4 +1,4 @@
-package String;
+
 public class LargestOddNumberInString {
     public static String largestOddNumberInString(String s){
         for(int i=s.length()-1;i>=0;i--){

@@ -1,4 +1,4 @@
-package String;
+
 public class FirstWordInUpperCase {
 
     public static String firstWordInUpperCase(String s){

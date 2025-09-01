@@ -1,4 +1,4 @@
-package String;
+
 // Qu - You are given a string S consisting of lowercase and/or uppercase
 // English letters, digits, spaces, and special characters. 
 // Your task is to find the longest substring of S that does not contain any repeating 
