@@ -32,12 +32,13 @@ public class LongestUniqueSubstring {
             // Max substring update karo
             if (right - left + 1 > maxLen) {
                 maxLen = right - left + 1;
-                startIdx = left;
+             //   startIdx = left; // important or finding start idx for substring
             }
         }
 
         // Substring nikalna
-        String longestSub = s.substring(startIdx, startIdx + maxLen);
+        //String longestSub = s.substring(startIdx, startIdx + maxLen);
+        String longestSub = s.substring(left, left + maxLen);
 
         // Output
         System.out.println("Longest Substring without repeating characters: " + longestSub);

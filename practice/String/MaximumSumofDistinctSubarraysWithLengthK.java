@@ -21,15 +21,15 @@ public class MaximumSumofDistinctSubarraysWithLengthK {
         Set<Integer> set = new HashSet<>();
         int left = 0, currsum = 0, maxSum = 0;
         for(int right = 0;right<arr.length;right++){
-            while(set.contains(arr[right]) || set.size() == k){
+            while(set.contains(arr[right]) || set.size() == k){ // this is imp where k is there 
                 set.remove(arr[left]);
                 currsum -= arr[left];
                 left++;
             }
             set.add(arr[right]);
             currsum += arr[right];
-            if(currsum > maxSum){
-                maxSum = currsum;
+            if(set.size() == k){ // this is imp where k is there 
+                maxSum = Math.max(currsum, maxSum);
             }
         }
         return maxSum;
