@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// here first and last element is same this is difference 
 public class SearchInRotatedSortedArray2 {
 
     public static boolean searchInRotatedSortedArray2(int[] arr, int target){
