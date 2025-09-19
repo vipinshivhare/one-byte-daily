@@ -18,6 +18,7 @@ public class RemoveDuplicateCharacterFromString {
         System.out.print("Enter the string : ");
         String str = scanner.nextLine();
         removeDuplicateCharacterFromString(str);
+        scanner.close();
 
 
     }
