@@ -9,6 +9,19 @@ public class CharacterFrequency {
         }
         return count;
     }
+
+    public static int characterFrequencyusingHashmap(String str, char ch) {
+        Map<Character, Integer> map = new HashMap<>();
+
+        // build frequency map
+        for (char c : str.toLowerCase().toCharArray()) {
+            map.put(c, map.getOrDefault(c, 0) + 1);
+        }
+
+        // return frequency of given character
+        return map.getOrDefault(Character.toLowerCase(ch), 0);
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the string : ");
@@ -17,7 +30,9 @@ public class CharacterFrequency {
         System.out.print("Enter the character : ");
         char ch = scanner.next().charAt(0);
 
-        System.out.println("Frequency of "+ch+" is "+characterFrequency(str,ch));
+        // System.out.println("Frequency of "+ch+" is "+characterFrequency(str,ch));
+        System.out.println("Frequency of "+ch+" is "+characterFrequencyusingHashmap(str,ch));
+        
 
         scanner.close();
     }
